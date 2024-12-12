@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgba(86, 83, 83, 0.36);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(39, 10, 94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+
+#logo{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(130, 46, 46);
+}
+
+header nav img {
+    height: 45px;
+}
+
+#carritocompra{
+    background-color: rgb(189, 34, 17);
+    border-radius: 100%;
+    font-size: 20px;
+    display: inline-block;
+    width: 40px;
+    aspect-ratio: 2;
+    text-align: center;
+    color: black;
+
+}
+
+.caja-de-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin: 20px;
+}
+
+.elemento-usado{
+    max-width: 750px;
+    text-align: center;
+    background-color: rgb(141, 96, 85);
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.elemento-usado img{
+    width: 90%;
+    height: 230px;
+    border-radius: 10%;
+    aspect-ratio: 1;
+    transition: all .5s;
+}
+
+.elemento-usado img:hover{
+    transform: scale(1.2);
+}
+
+button{
+    background-color: black;
+    color: antiquewhite;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: rgb(188, 62, 20) ;
+}
+
+footer{
+    background-color: rgb(101, 31, 31);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{ 
+
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
