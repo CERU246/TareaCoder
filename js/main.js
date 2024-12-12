@@ -91,22 +91,6 @@ function actualizarContadorCarrito() {
 
 actualizarContadorCarrito();
 
-// let carroDeCompras = [];
-
-// function agregarCarro(productos) {
-
-// const existe = carroDeCompras.some(el => el.producto === producto.producto);
-
-// if (!existe) {
-// carroDeCompras.push(productos);
-// localStorage.setItem("tecnoProductos", JSON.stringify(carroDeCompras));
-// console.log(`${producto.producto} agregado al carrito.`);
-// } else {
-// console.log(`${producto.producto} ya está en el carrito.`);
-// }
-
-// actualizarContadorCarrito();
-// }
 
 // function actualizarContadorCarrito() {
 // const contador = document.getElementById("carritocompra");
